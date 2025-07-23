@@ -18,7 +18,24 @@ li {
   font-weight: 700;
 }
 
-.Roboto {
+.roboto {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
+}
+.NotoSerif {
+  font-family: "Noto Serif";
+  font-optical-sizing: auto;
+}
+.hero-flower-section {
+  display: flex;
+  margin-top: 221px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.hero-flower-title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.color-orrange{
+    color: #E95A08;
 }
