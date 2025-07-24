@@ -92,3 +92,52 @@
 .x2 {
   font-size: 1.3rem;
 }
+.challange-part {
+  margin-top: 210px;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  gap: 80px;
+  position: relative;
+}
+
+.image-wrapper {
+  position: relative;
+  width: fit-content;
+}
+
+.image-wrapper img:first-child {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.image-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(255, 165, 0, 0.3), transparent);
+  border-radius: 8px;
+}
+
+.sex {
+  position: absolute;
+  top: -180px;
+  left: 95%;
+  transform: translateX(-50%);
+  width: 286px;
+  height: 286px;
+  z-index: 10;
+}
+
+.challange-part-title {
+  margin-top: 0px;
+  color: black;
+  font-size: 4rem;
+}
+
+.challange-p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
