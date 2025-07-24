@@ -11,9 +11,9 @@
   font-optical-sizing: auto;
 }
 .nav-items {
-  margin: 0 150px;
+  margin: 0 200px;
   display: flex;
-  gap: 1000px;
+  gap:900px;
 }
 .nav-menu li {
   color: #252432;
@@ -193,7 +193,7 @@
   font-weight: bold;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
- .off30 {
+.off30 {
   position: absolute;
   top: 75%;
   left: 14%;
@@ -202,4 +202,38 @@
   font-size: 1.8rem;
   font-weight: bold;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-} 
+}
+.news-letter-part {
+  margin-top: 120pxs;
+  background-image: url("assets/news-letter-bg.png");
+  background-size: cover;
+}
+.news-letter-part {
+  text-align: center;
+}
+.news-letter-part h1 {
+  color: white;
+  font-size: 4rem;
+  margin-top: 50px;
+}
+.bal {
+  padding-top: 13%;
+}
+
+.news-letter-part input{
+  height: 50px;
+  width: 644px;
+  font-size: 1rem;
+  background-color: white;
+  border: none;
+  margin-bottom: 150px;
+  padding: 20px;
+}
+.news-letter-part button{
+  height: 85px;
+  width: 250px;
+  font-size: 1.9rem;
+  color: white;
+  background-color: #e95a08;
+  border: none;
+}
